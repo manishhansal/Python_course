@@ -1,0 +1,13 @@
+print(5 + 4)
+print(5 - 4)
+print(5 / 4)
+print(5 % 4)
+print(5 // 4)
+print('Manish Kumar')
+print(True)
+print([1, 2, 3, 4])
+print(('Abhishek', 'Manish', 'Vikram'))
+print({9, 7, 2, 3})
+print({'name' : 'Manish', 'age' : 21, 'language' : 'python'})
+
+# Find an Euclidian distance between (2, 3) and (10, 8)

@@ -1,0 +1,62 @@
+2 + 3 # addition(+)
+3 - 2 # subtraction(-)
+2 * 3 # multiplication(*)
+3 / 2 # division(/)
+3 % 2 # modulus(%) - finding the remainder
+3 // 2 # floor division operator(//) - it removes the remainder
+3 ** 2 # exponential operator(**)
+'Manish' # To write my name as string
+"Manish" # To write my as string - now in double quote
+'''We use triple quote if the text is mor than one line''' # If the text is too long we use triple quote to make a string('''''')
+
+=> Single Line Comment (#)
+# This is the first Comment.
+# This is the second Comment.
+# Python is eating the world.
+
+=> Multiline Comment
+""" This is multiline Comment
+multiline comment takes multiple lines.
+python is eating the world.
+"""
+
+=> Python Indentation
+An indentation is a white space in a text. Indentation in many languages is used to increase code readability, however Python uses indentation to create block of codes. In other programming languages curly brackets are used to create blocks of codes instead of indentation. One of the common bugs when writing python code is wrong indentation.
+
+=> Data types
+1.) Number (Integers, Float, Complex)
+
+2.) string
+eg. 'Asabeneh'
+'Finland'
+'Python'
+'I love teaching'
+'I hope you are enjoying the first day of 30DaysOfPython Challenge'
+
+3.) Booleans (True or False)
+
+4.) List (similar to an array in javaScript)
+eg. [0, 1, 2, 3, 4, 5]  # all are the same data types - a list of numbers
+['Banana', 'Orange', 'Mango', 'Avocado'] # all the same data types - a list of strings (fruits)
+['Finland','Estonia', 'Sweden','Norway'] # all the same data types - a list of strings (countries)
+['Banana', 10, False, 9.81] # different data types in the list - string, integer, boolean and float
+
+5.) Dictionary (object)
+eg. {
+'first_name':'Asabeneh',
+'last_name':'Yetayeh',
+'country':'Finland', 
+'age':250, 
+'is_married':True,
+'skills':['JS', 'React', 'Node', 'Python']
+}
+
+6.) Tuple - A tuple is an ordered collection of different data types like list but tuples can not be modified once they are created. They are immutable.
+eg. ('Asabeneh', 'Pawel', 'Brook', 'Abraham', 'Lidiya') # Names
+('Earth', 'Jupiter', 'Neptune', 'Mars', 'Venus', 'Saturn', 'Uranus', 'Mercury') # planets
+
+7.) Set - A set is a collection of data types similar to list and tuple. Unlike list and tuple, set is not an ordered collection of items. Like in Mathematics, set in Python stores only unique items.
+eg. {2, 4, 3, 5}
+{3.14, 9.81, 2.7} # order is not important in set
+
+=> To check the data type of certain data/variable we use the 'type' function. 
