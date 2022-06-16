@@ -1,8 +1,5 @@
 # Day2 : Python programming
 
-from cmath import pi
-
-
 first_name = 'Manish'
 last_name = 'Kumar'
 full_name = first_name + last_name
@@ -36,6 +33,6 @@ print(total, diff, product, division, remainder, exp, floor_division)
 
 
 radius_of_circle = 30
-area_of_circle = radius_of_circle * radius_of_circle * pi
-circum_of_circle = 2 * pi * radius_of_circle
+area_of_circle = radius_of_circle * radius_of_circle * 3.14
+circum_of_circle = 2 * 3.14 * radius_of_circle
 print(area_of_circle, circum_of_circle)
