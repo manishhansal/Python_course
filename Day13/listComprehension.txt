@@ -1,0 +1,11 @@
+List comprehension in Python is a compact way of creating a list from a sequence. It is a short way to create a new list. List comprehension is considerably faster than processing a list using the for loop.
+# syntax
+[i for i in iterable if expression]
+
+Lambda function is a small anonymous function without a name. It can take any number of arguments, but can only have one expression. Lambda function is similar to anonymous functions in JavaScript. We need it when we want to write an anonymous function inside another function.
+
+To create a lambda function we use lambda keyword followed by a parameter(s), followed by an expression. See the syntax and the example below. Lambda function does not use return but it explicitly returns the expression.
+
+# syntax
+x = lambda param1, param2, param3: param1 + param2 + param2
+print(x(arg1, arg2, arg3))
