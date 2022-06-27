@@ -1,0 +1,14 @@
+In Python functions are treated as first class citizens, allowing you to perform the following operations on functions:
+
+A function can take one or more functions as parameters
+A function can be returned as a result of another function
+A function can be modified
+A function can be assigned to a variable
+
+Python allows a nested function to access the outer scope of the enclosing function. This is is known as a Closure. In Python, closure is created by nesting a function inside another encapsulating function and then returning the inner function.
+
+A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
+
+Some of the built-in higher order functions that we cover in this part are map(), filter, and reduce. Lambda function can be passed as a parameter and the best use case of lambda functions is in functions like map, filter and reduce.
+
+The reduce() function is defined in the functools module and we should import it from this module. Like map and filter it takes two parameters, a function and an iterable. However, it does not return another iterable, instead it returns a single value. 
