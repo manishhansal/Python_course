@@ -1,0 +1,95 @@
+When we write code it is common that we make a typo or some other common error. If our code fails to run, the Python interpreter will display a message, containing feedback with information on where the problem occurs and the type of an error. It will also sometimes gives us suggestions on a possible fix. Understanding different types of errors in programming languages will help us to debug our code quickly and also it makes us better at what we do.
+
+1. SyntaxError
+>>> print 'hello world'
+  File "<stdin>", line 1
+    print 'hello world'
+                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print('hello world')?
+
+2. NameError
+>>> print(age)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'age' is not defined
+>>> age = 25
+>>> print(age)
+25
+>>>
+
+3. IndexError
+>>> numbers = [1, 2, 3, 4, 5]
+>>> numbers[5]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>>
+
+4. ModuleNotFoundErro
+>>> import maths
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'maths'
+>>> import math
+>>>
+
+5. AttributeError
+>>> import maths
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'maths'
+>>> import math
+>>> math.PI
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'math' has no attribute 'PI'
+>>> math.pi
+3.141592653589793
+>>>
+
+6. KeyError
+>>> users = {'name':'Asab', 'age':250, 'country':'Finland'}
+>>> users['name']
+'Asab'
+>>> users['county']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'county'
+>>> user['country']
+'Finland'
+>>>
+
+7. TypeError
+>>> 4 + '3'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> 4 + int('3')
+7
+>>> 4 + float('3')
+7.0
+>>>
+
+8. ImportError
+>>> from math import power
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: cannot import name 'power' from 'math'
+>>> from math import pow
+>>> pow(2,3)
+8.0
+>>>
+
+9. ValueError
+>>> int('12a')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '12a'
+>>>
+
+10. ZeroDivisionError
+>>> 1/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>>
