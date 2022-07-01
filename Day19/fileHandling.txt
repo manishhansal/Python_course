@@ -1,0 +1,21 @@
+# Syntax
+open('filename', mode) # mode(r, a, w, x, t,b)  could be to read, write, update
+
+"r" - Read - Default value. Opens a file for reading, it returns an error if the file does not exist
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+"x" - Create - Creates the specified file, returns an error if the file exists
+"t" - Text - Default value. Text mode
+"b" - Binary - Binary mode (e.g. images)
+
+File with json Extension
+JSON stands for JavaScript Object Notation. Actually, it is a stringified JavaScript object or Python dictionary.
+
+File with csv Extension
+CSV stands for comma separated values. CSV is a simple file format used to store tabular data, such as a spreadsheet or database. CSV is a very common data format in data science.
+
+File with xlsx Extension
+To read excel files we need to install xlrd package. We will cover this after we cover package installing using pip.
+
+File with xml Extension
+XML is another structured data format which looks like HTML. In XML the tags are not predefined. The first line is an XML declaration. The person tag is the root of the XML. The person has a gender attribute. Example:XML
