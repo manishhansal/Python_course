@@ -1,0 +1,53 @@
+Statistics is the discipline that studies the collection, organization, displaying, analysing, interpretation and presentation of data. Statistics is a branch of Mathematics that is recommended to be a prerequisite for data science and machine learning. Statistics is a very broad field but we will focus in this section only on the most relevant part. After completing this challenge, you may go onto the web development, data analysis, machine learning and data science path. Whatever path you may follow, at some point in your career you will get data which you may work on. Having some statistical knowledge will help you to make decisions based on data, data tells as they say.
+
+What is data? Data is any set of characters that is gathered and translated for some purpose, usually analysis. It can be any character, including text and numbers, pictures, sound, or video. If data is not put in a context, it doesn't make any sense to a human or computer. To make sense from data we need to work on the data using different tools.
+
+The work flow of data analysis, data science or machine learning starts from data. Data can be provided from some data source or it can be created. There are structured and unstructured data.
+
+Data can be found in small or big format. Most of the data types we will get have been covered in the file handling section.
+
+The Python statistics module provides functions for calculating mathematical statistics of numerical data. The module is not intended to be a competitor to third-party libraries such as NumPy, SciPy, or proprietary full-featured statistics packages aimed at professional statisticians such as Minitab, SAS and Matlab. It is aimed at the level of graphing and scientific calculators.
+
+In the first section we defined Python as a great general-purpose programming language on its own, but with the help of other popular libraries as(numpy, scipy, matplotlib, pandas etc) it becomes a powerful environment for scientific computing.
+
+NumPy is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with arrays.
+
+So far, we have been using vscode but from now on I would recommend using Jupyter Notebook. To access jupyter notebook let's install anaconda. If you are using anaconda most of the common packages are included and you don't have install packages if you installed anaconda.
+
+Shape of numpy array
+The shape method provide the shape of the array as a tuple. The first is the row and the second is the column. If the array is just one dimensional it returns the size of the array.
+
+Type of data types: str, int, float, complex, bool, list, None
+
+
+NumPy array is not like exactly like python list. To do mathematical operation in Python list we have to loop through the items but numpy can allow to do any mathematical operation without looping. Mathematical Operation:
+
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Modules (%)
+Floor Division(//)
+Exponential(**)
+
+What is Arrange?
+Sometimes, you want to create values that are evenly spaced within a defined interval. For instance, you want to create values from 1 to 10; you can use numpy.arange() function
+
+NumPy has quite useful statistical functions for finding minimum, maximum, mean, median, percentile,standard deviation and variance, etc from the given elements in the array. The functions are explained as follows − Statistical function Numpy is equipped with the robust statistical function as listed below
+
+Numpy Functions
+Min np.min()
+Max np.max()
+Mean np.mean()
+Median np.median()
+Varience
+Percentile
+Standard deviation np.std()
+
+To summarize, the main differences with python lists are:
+
+Arrays support vectorized operations, while lists don’t.
+Once an array is created, you cannot change its size. You will have to create a new array or overwrite the existing one.
+Every array has one and only one dtype. All items in it should be of that dtype.
+An equivalent numpy array occupies much less space than a python list of lists.
+numpy arrays support boolean indexing.
