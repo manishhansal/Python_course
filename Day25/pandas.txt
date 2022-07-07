@@ -1,0 +1,20 @@
+Pandas is an open source, high-performance, easy-to-use data structures and data analysis tools for the Python programming language. Pandas adds data structures and tools designed to work with table-like data which is Series and Data Frames. Pandas provides tools for data manipulation:
+
+reshaping
+merging
+sorting
+slicing
+aggregation
+imputation. If you are using anaconda, you do not have install pandas.
+
+Pandas data structure is based on Series and DataFrames.
+
+A series is a column and a DataFrame is a multidimensional table made up of collection of series. In order to create a pandas series we should use numpy to create a one dimensional arrays or a python list.
+
+Data frame is a collection of rows and columns.
+
+Modifying a DataFrame
+Modifying a DataFrame: * We can create a new DataFrame * We can create a new column and add it to the DataFrame, * we can remove an existing column from a DataFrame, * we can modify an existing column in a DataFrame, * we can change the data type of column values in the DataFrame
+
+Creating a DataFrame
+As always, first we import the necessary packages. Now, lets import pandas and numpy, two best friends ever.
